@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"72186d8b338fdfed","x":-500,"y":220,"width":800,"height":620,"type":"group","label":"高校から知り合い"},
+		{"id":"c3ec20cff18f047b","type":"group","x":580,"y":140,"width":620,"height":560,"label":"イムソムニア"},
+		{"id":"3860b46ea6726b17","x":-280,"y":0,"width":534,"height":600,"type":"group","label":"同じ大学"},
+		{"id":"275398d096d66e5f","type":"text","text":"ヨシノ","x":52,"y":73,"width":140,"height":60,"color":"6"},
+		{"id":"38ed85dddb0b51f4","type":"text","text":"ハヤト","x":100,"y":485,"width":140,"height":60,"color":"#000000"},
+		{"id":"30d715de6742aaaf","type":"text","text":"ヤノメ","x":-246,"y":360,"width":125,"height":60},
+		{"id":"d5d950bb510c80da","type":"text","text":"???","x":-246,"y":920,"width":125,"height":60},
+		{"id":"7bba32a241d39035","type":"text","text":"ミカコ","x":-246,"y":740,"width":125,"height":60},
+		{"id":"651d414f7022ad66","type":"text","text":"サヨ","x":678,"y":210,"width":125,"height":60,"color":"6"},
+		{"id":"90f59b42ca1dc303","type":"text","text":"ヤマト","x":740,"y":486,"width":125,"height":59,"color":"6"},
+		{"id":"20f4ec7112106c31","type":"text","text":"ゆめびと","x":980,"y":600,"width":160,"height":60},
+		{"id":"7d55d588af6089df","type":"text","text":"イト","x":980,"y":210,"width":120,"height":60}
+	],
+	"edges":[
+		{"id":"b7b705026228a8f0","fromNode":"275398d096d66e5f","fromSide":"left","toNode":"30d715de6742aaaf","toSide":"top","fromEnd":"arrow","color":"6","label":"友人"},
+		{"id":"4ecb9519527e20a3","fromNode":"651d414f7022ad66","fromSide":"left","toNode":"275398d096d66e5f","toSide":"right","color":"5","label":"妹を名乗る"},
+		{"id":"eb89d4471eab9693","fromNode":"90f59b42ca1dc303","fromSide":"bottom","toNode":"7bba32a241d39035","toSide":"right","color":"5","label":"惚れる"},
+		{"id":"77af3c928ee9b948","fromNode":"38ed85dddb0b51f4","fromSide":"bottom","toNode":"7bba32a241d39035","toSide":"top","fromEnd":"arrow","color":"2","label":"恋人"},
+		{"id":"bc90461ee6b2fcaa","fromNode":"7bba32a241d39035","fromSide":"bottom","toNode":"d5d950bb510c80da","toSide":"top","label":"浮気"},
+		{"id":"37754feecb10125d","fromNode":"275398d096d66e5f","fromSide":"bottom","toNode":"38ed85dddb0b51f4","toSide":"top","color":"6","label":"崇拝"},
+		{"id":"689f394347f6b9c1","fromNode":"651d414f7022ad66","fromSide":"bottom","toNode":"7bba32a241d39035","toSide":"right","color":"5","label":"敵対"},
+		{"id":"b47f8928a012bb0b","fromNode":"20f4ec7112106c31","fromSide":"top","toNode":"90f59b42ca1dc303","toSide":"right","color":"5","label":"仕える"},
+		{"id":"8495e115a94fd75f","fromNode":"90f59b42ca1dc303","fromSide":"left","toNode":"30d715de6742aaaf","toSide":"right","color":"5","label":"お抱え医師"},
+		{"id":"5cb41cf0ae16a5d6","fromNode":"30d715de6742aaaf","fromSide":"left","toNode":"7bba32a241d39035","toSide":"left","color":"2","label":"気まずい、恨み"},
+		{"id":"8a0c612ba14d7038","fromNode":"38ed85dddb0b51f4","fromSide":"left","toNode":"30d715de6742aaaf","toSide":"bottom","color":"2","label":"ミカコに紹介してもらう"}
+	]
+}
